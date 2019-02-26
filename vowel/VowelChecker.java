@@ -5,7 +5,7 @@ public class VowelChecker {
     private static final int[] VOWELSEQUENCE = {'A', 'E', 'I', 'O', 'U'};
 
     public static boolean checkCharacter(final char a){
-        Character characterToUpperCase = Character.toUpperCase(a);
+        char characterToUpperCase = Character.toUpperCase(a);
         boolean flag = false;
         for (int i = 0; i < VOWELSEQUENCE.length; i++){
             if (VOWELSEQUENCE[i] == characterToUpperCase){
